@@ -1,46 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
   <title>BB Studio</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300" rel="stylesheet" type="text/css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    <!-- Hero -->
+  <!-- Hero -->
   <section class="et-hero-tabs">
-    <h1>test</h1>
-    <h3>Sliding tab</h3>
+    <div class="et-hero-title title">
+      <iconify-icon class="icon heading" icon="clarity:crown-line"></iconify-icon>
+      <div class="smallsep heading"></div>
+      <h1 class="heading">BB Studio</h1>
+      <h2 class="heading">Body Balance & Stress Balance Studio</h2>
+    </div>
     <div class="et-hero-tabs-container">
-      <a class="et-hero-tab" href="#tab-es6">1</a>
-      <a class="et-hero-tab" href="#tab-flexbox">2</a>
-      <a class="et-hero-tab" href="#tab-react">3</a>
-      <a class="et-hero-tab" href="#tab-angular">4</a>
+      <a class="et-hero-tab" href="#tab-about">About</a>
+      <a class="et-hero-tab" href="#tab-team">Team</a>
+      <a class="et-hero-tab" href="#tab-program">Program</a>
+      <a class="et-hero-tab" href="#tab-contact">Contact</a>
       <span class="et-hero-tab-slider"></span>
     </div>
   </section>
 
   <!-- Main -->
   <main class="et-main">
-    <section class="et-slide" id="tab-es6">
-      <h1>1</h1>
-      <h3>11111111</h3>
+    <section class="et-slide" id="tab-about">
+      <div class="container">
+        <div class="row">
+          <h3>About BB Studio</h3>
+          <div class="block"></div>
+          <p>
+            안녕하세요, <span class="icon">BB 스튜디오</span>입니다.<br />
+            BB 스튜디오는 식단 • 필라테스 • 스트레스 케어 프로그램을 통해<br />
+            여러분의 Body 밸런스와 Stress 밸런스를 책임집니다.<br />
+            각 분야의 전문가들과 함께 더 건강한 하루를 시작해 보세요! <br />
+            <br />
+            <span class="english">
+              Hello, this is BB Studio. <br />
+              BB Studio takes responsibility for your body balance and stress balance <br />
+              through our diet, Pilates, and stress care programs. <br />
+              Start a healthier day with experts in each field!
+            </span>
+          </p>
+        </div>
+      </div>
+      </div>
     </section>
-    <section class="et-slide" id="tab-flexbox">
-      <h1>2</h1>
-      <h3>22222222</h3>
+    <section class="et-slide" id="tab-team">
+      <div class="container">
+        <div class="row">
+          <h3>Meet the Team</h3>
+          <div class="block"></div>
+          <p>
+            BB 스튜디오는 최고의 전문가들과 함께 1:1 프로그램을 진행합니다.<br />
+            1:1 프로그램은 <span class="icon">식단 • 필라테스 • 스트레스</span>를 함께 관리하며<br />
+            외적•내적으로 겪는 현대인들의 문제점들을 케어합니다.<br />
+          </p>
+        </div>
+        <div class="row">
+          <div class="three columns"> <img src="./assets/tomato-g7418ef719_1280.jpg" width="220" height="220" alt="" />
+            <!-- <h5 class="name">Diet Manager</h5> -->
+            <p>Diet Manager</p>
+          </div>
+          <div class="three columns"> <img src="./assets/yoga-gfad776394_1280.jpg" width="220" height="220" alt="" />
+            <!-- <h4>Pilates Manager</h4> -->
+            <p>Pilates Manager</p>
+          </div>
+          <div class="three columns"> <img src="./assets/woman-g950f4f517_1280.jpg" width="220" height="220" alt="" />
+            <!-- <h4>Stress Manager</h4> -->
+            <p>Stress Manager</p>
+          </div>
+        </div>
+      </div>
     </section>
-    <section class="et-slide" id="tab-react">
-      <h1>3</h1>
-      <h3>33333333333</h3>
+    <section class="et-slide" id="tab-program">
+      <div class="container">
+        <div class="row">
+          <h3>Balance Program</h3>
+          <div class="block"></div>
+          <table>
+            <tr>
+              <td>program</td>
+              <td>횟수</td>
+              <td>가격</td>
+            </tr>
+            <tr>
+              <td>program</td>
+              <td>횟수</td>
+              <td>가격</td>
+            </tr>
+            <tr>
+              <td>program</td>
+              <td>횟수</td>
+              <td>가격</td>
+            </tr>
+            <tr>
+              <td>program</td>
+              <td>횟수</td>
+              <td>가격</td>
+            </tr>
+          </table>
+          <p>
+            현재 각 프로그램의 리뷰 체험단을 진행 중이며 실제 프로그램은 <span class="icon">24년 2월</span>부터 신청 가능합니다.
+          </p>
+        </div>
+      </div>
     </section>
-    <section class="et-slide" id="tab-angular">
-      <h1>4</h1>
-      <h3>4444444444444</h3>
+    <section class="et-slide" id="tab-contact">
+      <div class="container">
+        <h1>Contact</h1>
+        <div class="block"></div>
+        <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="exampleRecipientInput">Name</label>
+              <input class="u-full-width" type="text">
+            </div>
+            <div class="six columns">
+              <label for="exampleEmailInput">Email</label>
+              <input class="u-full-width" type="email">
+            </div>
+          </div>
+          <div class="row">
+            <label for="exampleMessage">Message</label>
+            <textarea class="u-full-width"></textarea>
+            <input class="button-primary" type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
     </section>
   </main>
   <script src="http://code.jquery.com/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
   <script src="navigation.js"></script>
 </body>
+
 </html>
