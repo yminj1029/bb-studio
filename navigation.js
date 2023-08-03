@@ -23,6 +23,7 @@ class StickyNavigation {
   }
 
   onScroll() {
+    console.log("???");
     this.checkTabContainerPosition();
     this.findCurrentTabSelector();
   }
